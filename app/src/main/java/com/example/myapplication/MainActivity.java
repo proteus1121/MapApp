@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.button_map).setOnClickListener(v -> loadFragment(new MapFragment()));
         findViewById(R.id.button_text).setOnClickListener(v -> loadFragment(new TextFragment()));
+        //        viewPager = findViewById(R.id.viewPager);
+        //
+        //        // Set up the adapter for the ViewPager2
+        //        viewPagerAdapter = new ViewPagerAdapter(this);
+        //        viewPager.setAdapter(viewPagerAdapter);
     }
 
     // Helper method to load fragments
